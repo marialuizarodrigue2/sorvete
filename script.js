@@ -1,13 +1,17 @@
-botao.addEventListener('click', function (){
-
+botao.addEventListener("click", function () {
+    
     var nomeCliente = nome.value;
-    var quantidaDeSorvete = quantidade.value;
+    var quantiaSorvete = quantidade.value;
     var saborSorvete = sabores.value;
+    
+    
+   /* alert( "Nome:" + nomecliente + 
+   "Qnt:" + quantidadeSorvete + 
+   "Sabor:" + saborSorvete); */
+     
 
-//alert("nome:" + nomeCliente + "qnt:" + quantidaDeSorvete + "sabor:" + saborSorvete);
-
-    pedidonome.innerHTML = nomeCliente;
-    pedidoquantia.innerHTML = quantidaDeSorvete;
-    pedidosabor.innerHTML = saborSorvete;
+pedidoNome.innerHTML = nomeCliente;
+pedidoQuantia.innerHTML = quantiaSorvete; 
+pedidoSabor.innerHTML = saborSorvete;
 
 });
